@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   
+  resources :tests
   root :to => "sapp#index"
   get "index" => "sapp#index"
   
