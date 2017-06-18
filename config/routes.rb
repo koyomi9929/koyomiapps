@@ -1,8 +1,8 @@
 Rails.application.routes.draw do
   
   resources :tests
-  root :to => "sapp#index"
-  get "index" => "sapp#index"
+  root :to => "tests#index"
+  get "index" => "tests#index"
   
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
